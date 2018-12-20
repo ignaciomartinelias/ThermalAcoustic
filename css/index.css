@@ -178,7 +178,7 @@ img::-moz-selection {
   font-size: 12px;
   font-weight: 600;
   font-family: Montserrat;
-  letter-spacing: .75px;
+  letter-spacing: .15px;
   text-transform: uppercase;
   color: black;
   padding-bottom: 2px;
@@ -400,7 +400,7 @@ header img {
   margin-top: 0;
   text-align: center;
   font-family: 'Catamaran' ;
-  font-weight: 800 !important;
+  font-weight: 600 !important;
   color: black;
 }
 
@@ -572,7 +572,7 @@ img {
   margin-top: 0;
   text-align: center;
   font-family: 'Catamaran' ;
-  font-weight: 800 !important;
+  font-weight: 600 !important;
   color: white;
 }
 
@@ -1427,6 +1427,10 @@ body::after {
   color: rgba(0, 0, 0, 0.75);
 }
 
+.fa-check-circle {
+  font-size: .8em;
+}
+
 .text-black-50 {
   font-family: Catamaran;
 }
@@ -1638,4 +1642,3 @@ body::after {
 .whatsapp i {
   font-weight: 500;
 }
-
