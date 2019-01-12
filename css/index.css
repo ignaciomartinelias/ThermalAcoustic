@@ -59,6 +59,10 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+h2 {
+ font-size: 1.5em;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -571,7 +575,7 @@ header img {
 
 @media(max-width: 550px) {
    #empresa p {
-      font-size: 2.5vw;
+      font-size: 3vw;
     }
 
     .nosotros,
@@ -1285,7 +1289,7 @@ body::after {
 @media (max-width: 550px) {
 
 #servicios p {
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 
 }
@@ -1718,8 +1722,21 @@ body::after {
   font-size: 2vw;
 
 }
-.contact-section .card h4 {
+
+@media (max-width: 750px) {
+  .fila-contacto {
+    padding-top: 25px;
+  }
+
+  .card-body{
+  padding: 10px;
   font-size: 3vw;
+
+}
+
+}
+.contact-section .card h4 {
+  font-size: 4vw;
   font-family: Catamaran;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
