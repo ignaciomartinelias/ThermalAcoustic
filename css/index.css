@@ -477,6 +477,15 @@ header img {
   flex-direction: column;
 }
 
+@media (max-width: 750px) {
+  #empresa .imagen-seccion,
+  #empresa .nosotros,
+  #empresa .mision,
+  #empresa .vision {
+    min-height: 150px;
+  }
+}
+
 .seccion-empresa {
   width: 75%;
   margin: auto;
