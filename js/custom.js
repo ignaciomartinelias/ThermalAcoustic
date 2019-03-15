@@ -1,7 +1,7 @@
 // Carga de Productos al Showcase
 // Seteo de Background Image de Cada Product Showcase
 
-$.getJSON("/js/productos.json", function(data) {
+$.getJSON("/productos.json", function(data) {
   var items = [];
   $.each(data, function(key, val) {
     items.push(val);
